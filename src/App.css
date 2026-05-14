@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  max-width: 1200px;
+  text-align: center;
+  margin-top: 40px;
+  padding: 5px 10px;
+}
+
+.header p {
+  padding-top: 10px
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.component {
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(207, 206, 206);
+  border-radius: 4px;
+  box-shadow: rgba(135, 134, 134, 0.16) 5px 10px 8px;
+  width: 700px;
+  height: 300px;
+  padding: 10px;
+  font-size: 18px;
+  resize: none;
+}
+
+.actions {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+button.clear:disabled {
+  background-color: rgb(32, 30, 30);
+  cursor: not-allowed;
+}
+
+.clear {
+  padding: 8px 18px;
+  background-color: rgb(183, 58, 58);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.blue-btn {
+  width: 120px;
+  padding: 8px 18px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
